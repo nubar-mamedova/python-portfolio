@@ -2,7 +2,7 @@ import openai
 from cs50 import get_string
 
 # Your OpenAI API Key
-openai.api_key = "sk-..."  # ← paste your API key here
+openai.api_key = "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"  # ← paste your API key here
 
 def ask_gpt(prompt):
     response = openai.ChatCompletion.create(
